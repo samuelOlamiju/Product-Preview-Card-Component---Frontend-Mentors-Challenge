@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(32, 74%, 88%);
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px auto;
+    max-width: 375px;
+}
+
+.content {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto 50px auto;
+}
+
+.content > h1 {
+    font-family: 'Fraunces', serif;
+    color:  hsl(212, 21%, 14%);
+}
+
+.caption {
+    font-size: small;
+    font-weight: 300;
+    letter-spacing: 7px;
+}
+
+.desktop{
+    display: none;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.main-product {
+    background-image: url("images/image-product-mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    height: 263px;
+}
+
+.discount {
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    margin: 0 1.5rem 0 0;
+    font-size: xx-large;
+}
+.normal {
+    display: inline-block;
+    vertical-align: super;
+    text-decoration: line-through;
+    
+}
+
+.cart {
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+}
+
+.cart:active, .cart:hover {
+    background-color: hsl(157, 69%, 17%);
+}
+
+.cart img {
+    color: rgb(14, 11, 11);
+    
+}
+
+.cart p {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.cart .effect {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.effect {
+    color: hsl(228, 12%, 48%)
+}
+
+@media only screen and (min-width:768px){
+.container {
+    max-height: 450px;
+    max-width: 667px;
+    display: flex;
+}
+
+.main-product {
+    display: none;
+}
+
+.desktop{
+    border-radius: 5px 0 0 5px;
+    display: block;
+    height: 450px;
+    width: 50%;
+}
+
+.content {
+    width: 35%;
+    margin-top: 50px;
+}
+
+.price {
+    height: 85px;
+}
+}
