@@ -104,6 +104,12 @@ body {
     display: flex;
 }
 
+.center{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}    
+    
 .main-product {
     display: none;
 }
