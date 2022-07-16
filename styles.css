@@ -97,6 +97,18 @@ body {
     color: hsl(228, 12%, 48%)
 }
 
+.effect a{
+    text-decoration: none;
+    color: hsl(157, 69%, 17%);
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
 @media only screen and (min-width:768px){
 .container {
     max-height: 450px;
@@ -108,8 +120,8 @@ body {
     display: grid;
     height: 100vh;
     place-items: center;
-}    
-    
+}
+
 .main-product {
     display: none;
 }
